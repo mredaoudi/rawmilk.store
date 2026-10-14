@@ -1,0 +1,20 @@
+# Generated site: Vercel builds it from source with `npm run build`
+dist/
+
+# Dependencies (the project has none, but just in case)
+node_modules/
+
+# Local environment and hosting settings
+.env
+.env.*
+.vercel/
+
+# Logs and editor or OS files
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+PROMPT.md
+DECISIONS.md

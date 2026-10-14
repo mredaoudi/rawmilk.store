@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "lang": "en",
+    "langName": "English",
+    "numberLocale": "en-GB"
+  },
+  "site": {
+    "title": "Raw milk direct sales calculator",
+    "description": "Free calculator for dairy farmers: compare selling raw milk directly, from a vending machine or farm shop, with delivering it to the dairy.",
+    "skip": "Skip to content",
+    "navLabel": "Pages",
+    "navCalculator": "Calculator",
+    "navMethod": "Method",
+    "languageLabel": "Language",
+    "disclaimer": "Estimate, not financial or legal advice.",
+    "builtBy": "Built and maintained by {ktlo}",
+    "noscript": "This calculator needs JavaScript to work."
+  },
+  "home": {
+    "h1": "What is my milk worth if I sell it myself?",
+    "intro": "Compare selling raw milk directly, from a vending machine or farm shop, with delivering it to the dairy."
+  },
+  "price": {
+    "heading": "Dairy price",
+    "country": "Country",
+    "herdType": "Herd type",
+    "conventional": "Conventional",
+    "organic": "Organic",
+    "line": "Dairy price: {country}, {month} · source: {source}",
+    "sourceName": "European Commission",
+    "value": "{per100kg} per 100 kg, or {perLitre} per litre",
+    "stale": "Outdated",
+    "staleNote": "The latest update failed its checks, so an older price is shown.",
+    "organicFallback": "No organic price is published for this country. The conventional price is used instead.",
+    "countryFallback": "No recent dairy price is published for this country. The price of a neighbouring country is used instead: {other}.",
+    "unavailable": "No dairy price is available for this country.",
+    "authority": "Food safety authority: {link}"
+  },
+  "countries": {
+    "BE": "Belgium",
+    "NL": "Netherlands",
+    "LU": "Luxembourg",
+    "DE": "Germany",
+    "FR": "France"
+  },
+  "authorities": {
+    "BE": "FASFC",
+    "NL": "NVWA",
+    "LU": "ALVA",
+    "DE": "food control authorities of the federal states (BVL overview, in German)",
+    "FR": "DDPP directory (in French)"
+  },
+  "form": {
+    "heading": "Your figures",
+    "advanced": "More assumptions",
+    "reset": "Reset to defaults",
+    "sliderSuffix": "slider"
+  },
+  "inputs": {
+    "soldLitresPerDay": {
+      "label": "Milk sold",
+      "unit": "L/day"
+    },
+    "sellPrice": {
+      "label": "Selling price",
+      "unit": "€/L"
+    },
+    "investment": {
+      "label": "Investment",
+      "unit": "€"
+    },
+    "hoursPerDay": {
+      "label": "Your time",
+      "unit": "h/day"
+    },
+    "daysOpen": {
+      "label": "Days open",
+      "unit": "days/year"
+    },
+    "paymentFeeShare": {
+      "label": "Payment fees",
+      "unit": "%"
+    },
+    "bottleCostPerL": {
+      "label": "Bottle cost",
+      "unit": "€/L"
+    },
+    "wasteShare": {
+      "label": "Milk loaded but not sold",
+      "unit": "%"
+    },
+    "hourlyValue": {
+      "label": "Value of your time",
+      "unit": "€/h"
+    },
+    "electricityPerYear": {
+      "label": "Electricity",
+      "unit": "€/year"
+    },
+    "maintenancePerYear": {
+      "label": "Maintenance",
+      "unit": "€/year"
+    },
+    "labTestsPerYear": {
+      "label": "Lab tests",
+      "unit": "€/year"
+    },
+    "insurancePerYear": {
+      "label": "Insurance",
+      "unit": "€/year"
+    },
+    "paybackTargetYears": {
+      "label": "Payback target",
+      "unit": "years"
+    }
+  },
+  "results": {
+    "heading": "Results",
+    "annualMargin": "Extra margin per year",
+    "annualMarginNote": "Compared with delivering the same milk to the dairy",
+    "payback": "Payback",
+    "months": "{n} months",
+    "years": "about {n} years",
+    "noPayback": "Does not pay back",
+    "notProfitable": "Not profitable at this price",
+    "breakEven": "Break-even volume",
+    "target": "Volume to pay back in {years} years",
+    "litresDay": "{n} L/day",
+    "marginPerLitre": "Margin per litre sold",
+    "annualFixed": "Fixed costs per year",
+    "live": "Extra margin per year: {margin}. Payback: {payback}."
+  },
+  "scenarios": {
+    "heading": "Scenarios",
+    "note": "Pessimistic: {down} fewer litres and {waste} percentage points more unsold milk. Optimistic: {up} more litres.",
+    "scenario": "Scenario",
+    "pessimistic": "Pessimistic",
+    "expected": "Expected",
+    "optimistic": "Optimistic",
+    "litres": "Sold",
+    "margin": "Margin per year",
+    "payback": "Payback"
+  },
+  "chart": {
+    "heading": "Cash flow over {months} months",
+    "label": "Line chart of cumulative cash flow over {months} months. It starts at {start} and reaches {end} in the expected scenario.",
+    "expected": "Expected",
+    "range": "Pessimistic to optimistic",
+    "xAxis": "Months",
+    "month": "Month {n}",
+    "paidBack": "Paid back",
+    "table": "Show as table",
+    "tableMonth": "Month",
+    "keyboard": "Use the left and right arrow keys to read values month by month."
+  },
+  "share": {
+    "copy": "Copy link",
+    "copied": "Link copied",
+    "failed": "Copy the address from the address bar",
+    "print": "Print"
+  },
+  "print": {
+    "heading": "Summary",
+    "date": "Date: {date}",
+    "inputs": "Inputs"
+  },
+  "method": {
+    "title": "Method",
+    "intro": "This page lists everything the calculator does: the formulas, the starting values and where the dairy price comes from.",
+    "formulasHeading": "Formulas",
+    "formulasIntro": "Direct sales are compared with delivering the same milk to the dairy. The dairy price is therefore counted as a cost of every litre sold directly.",
+    "termsHeading": "What each result means",
+    "terms": {
+      "dairyPricePerL": "The dairy price converted from € per 100 kg to € per litre. One litre of milk weighs about 1.03 kg.",
+      "marginPerSoldLitre": "What one litre sold directly earns more than a litre delivered to the dairy, after payment fees, the bottle and the milk that was loaded but not sold.",
+      "annualFixed": "Costs that do not depend on the volume sold: your time, electricity, maintenance, lab tests and insurance.",
+      "annualMargin": "Extra margin per year compared with the dairy, after fixed costs.",
+      "paybackMonths": "Months needed for the extra margin to cover the investment. If the annual margin is zero or negative, the investment does not pay back.",
+      "breakEvenLitresDay": "Litres to sell per day for the annual margin to be exactly zero.",
+      "targetLitresDay": "Litres to sell per day to recover the investment within the payback target.",
+      "cashFlow": "Cumulative cash flow for each month from 0 to 60, starting at minus the investment."
+    },
+    "edgeCases": "If the margin per litre sold is zero or negative, the break-even and target volumes are shown as \"not profitable at this price\".",
+    "scenariosHeading": "Scenarios",
+    "scenariosText": "Three scenarios are calculated. Expected uses your figures as entered. Pessimistic uses {down} fewer litres and {waste} percentage points more unsold milk. Optimistic uses {up} more litres.",
+    "defaultsHeading": "Starting values",
+    "defaultsIntro": "Every starting value can be changed in the calculator. Values marked as not yet verified are placeholders until a reliable source is found.",
+    "colInput": "Input",
+    "colDefault": "Starting value",
+    "colSource": "Source",
+    "colStatus": "Status",
+    "verified": "Verified",
+    "unverified": "Not yet verified",
+    "dataHeading": "Dairy price data",
+    "dataText": "Dairy prices come from the raw milk price data of the European Commission's Agri-food Data Portal: monthly prices per member state, for conventional and organic milk, in € per 100 kg.",
+    "dataChecks": "Each value is checked before it is published. A value is rejected if it is outside {min}–{max} € per 100 kg, if its month is more than {months} months old, or if it differs by {change} or more from the previous value. In that case the previous value stays and is marked as outdated.",
+    "dataFallback": "Where no organic price is published, the conventional price is used. Where a country has no recent price at all, a neighbouring country's price is used. The calculator says so in both cases.",
+    "dataSource": "Data source",
+    "dataApi": "API request",
+    "lastUpdate": "Last update: {date}",
+    "colCountry": "Country",
+    "colPer100kg": "€ per 100 kg",
+    "colPerLitre": "€ per litre",
+    "colMonth": "Month",
+    "noData": "No data",
+    "disclaimerHeading": "Disclaimer",
+    "disclaimerText": "The results depend entirely on the figures entered. Check them with your accountant, and check the rules for selling raw milk with your food safety authority."
+  },
+  "defaultSources": {
+    "country": "Design choice: KTLO is based in Belgium",
+    "herdType": "Design choice: the most common case",
+    "soldLitresPerDay": "Placeholder",
+    "sellPrice": "Placeholder, pending a survey of Belgian vending machines",
+    "investment": "University of Hohenheim study on German milk vending machines: an investment under €20,000 is realistic",
+    "hoursPerDay": "Placeholder",
+    "daysOpen": "Placeholder",
+    "paymentFeeShare": "Placeholder",
+    "bottleCostPerL": "Placeholder: customers usually bring or buy their own bottles",
+    "wasteShare": "Placeholder",
+    "hourlyValue": "Placeholder",
+    "electricityPerYear": "Placeholder",
+    "maintenancePerYear": "Placeholder: yearly hose replacement plus monthly calibration",
+    "labTestsPerYear": "Placeholder",
+    "insurancePerYear": "Placeholder",
+    "paybackTargetYears": "Design choice: matches the 60-month chart"
+  }
+}

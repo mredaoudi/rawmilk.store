@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "lang": "de",
+    "langName": "Deutsch",
+    "numberLocale": "de-DE"
+  },
+  "site": {
+    "title": "Rechner für die Direktvermarktung von Rohmilch",
+    "description": "Kostenloser Rechner für Milchviehbetriebe: Vergleichen Sie den Direktverkauf von Rohmilch, über Milchautomat oder Hofladen, mit der Lieferung an die Molkerei.",
+    "skip": "Zum Inhalt",
+    "navLabel": "Seiten",
+    "navCalculator": "Rechner",
+    "navMethod": "Methode",
+    "languageLabel": "Sprache",
+    "disclaimer": "Schätzung, keine Finanz- oder Rechtsberatung.",
+    "builtBy": "Entwickelt und betreut von {ktlo}",
+    "noscript": "Dieser Rechner benötigt JavaScript."
+  },
+  "home": {
+    "h1": "Was ist meine Milch wert, wenn ich sie selbst verkaufe?",
+    "intro": "Vergleichen Sie den Direktverkauf von Rohmilch, über Milchautomat oder Hofladen, mit der Lieferung an die Molkerei."
+  },
+  "price": {
+    "heading": "Molkereipreis",
+    "country": "Land",
+    "herdType": "Betriebsart",
+    "conventional": "Konventionell",
+    "organic": "Bio",
+    "line": "Molkereipreis: {country}, {month} · Quelle: {source}",
+    "sourceName": "Europäische Kommission",
+    "value": "{per100kg} je 100 kg, also {perLitre} je Liter",
+    "stale": "Veraltet",
+    "staleNote": "Die letzte Aktualisierung hat die Prüfungen nicht bestanden. Deshalb wird ein älterer Preis angezeigt.",
+    "organicFallback": "Für dieses Land wird kein Biopreis veröffentlicht. Stattdessen wird der konventionelle Preis verwendet.",
+    "countryFallback": "Für dieses Land wird kein aktueller Molkereipreis veröffentlicht. Stattdessen wird der Preis eines Nachbarlandes verwendet: {other}.",
+    "unavailable": "Für dieses Land ist kein Molkereipreis verfügbar.",
+    "authority": "Lebensmittelbehörde: {link}"
+  },
+  "countries": {
+    "BE": "Belgien",
+    "NL": "Niederlande",
+    "LU": "Luxemburg",
+    "DE": "Deutschland",
+    "FR": "Frankreich"
+  },
+  "authorities": {
+    "BE": "FASNK",
+    "NL": "NVWA (auf Niederländisch)",
+    "LU": "ALVA",
+    "DE": "Lebensmittelüberwachung der Bundesländer (Übersicht des BVL)",
+    "FR": "Verzeichnis der DDPP (auf Französisch)"
+  },
+  "form": {
+    "heading": "Ihre Zahlen",
+    "advanced": "Weitere Annahmen",
+    "reset": "Startwerte wiederherstellen",
+    "sliderSuffix": "Schieberegler"
+  },
+  "inputs": {
+    "soldLitresPerDay": {
+      "label": "Verkaufte Milch",
+      "unit": "L/Tag"
+    },
+    "sellPrice": {
+      "label": "Verkaufspreis",
+      "unit": "€/L"
+    },
+    "investment": {
+      "label": "Investition",
+      "unit": "€"
+    },
+    "hoursPerDay": {
+      "label": "Ihre Arbeitszeit",
+      "unit": "Std./Tag"
+    },
+    "daysOpen": {
+      "label": "Öffnungstage",
+      "unit": "Tage/Jahr"
+    },
+    "paymentFeeShare": {
+      "label": "Zahlungsgebühren",
+      "unit": "%"
+    },
+    "bottleCostPerL": {
+      "label": "Flaschenkosten",
+      "unit": "€/L"
+    },
+    "wasteShare": {
+      "label": "Eingefüllte, aber nicht verkaufte Milch",
+      "unit": "%"
+    },
+    "hourlyValue": {
+      "label": "Wert Ihrer Arbeitszeit",
+      "unit": "€/Std."
+    },
+    "electricityPerYear": {
+      "label": "Strom",
+      "unit": "€/Jahr"
+    },
+    "maintenancePerYear": {
+      "label": "Wartung",
+      "unit": "€/Jahr"
+    },
+    "labTestsPerYear": {
+      "label": "Laboruntersuchungen",
+      "unit": "€/Jahr"
+    },
+    "insurancePerYear": {
+      "label": "Versicherung",
+      "unit": "€/Jahr"
+    },
+    "paybackTargetYears": {
+      "label": "Angestrebte Amortisationszeit",
+      "unit": "Jahre"
+    }
+  },
+  "results": {
+    "heading": "Ergebnisse",
+    "annualMargin": "Mehrertrag pro Jahr",
+    "annualMarginNote": "Im Vergleich zur Lieferung derselben Milch an die Molkerei",
+    "payback": "Amortisation",
+    "months": "{n} Monate",
+    "years": "etwa {n} Jahre",
+    "noPayback": "Amortisiert sich nicht",
+    "notProfitable": "Bei diesem Preis nicht rentabel",
+    "breakEven": "Menge für die Gewinnschwelle",
+    "target": "Menge für eine Amortisation in {years} Jahren",
+    "litresDay": "{n} L/Tag",
+    "marginPerLitre": "Marge je verkauftem Liter",
+    "annualFixed": "Fixkosten pro Jahr",
+    "live": "Mehrertrag pro Jahr: {margin}. Amortisation: {payback}."
+  },
+  "scenarios": {
+    "heading": "Szenarien",
+    "note": "Pessimistisch: {down} weniger Liter und {waste} Prozentpunkte mehr unverkaufte Milch. Optimistisch: {up} mehr Liter.",
+    "scenario": "Szenario",
+    "pessimistic": "Pessimistisch",
+    "expected": "Erwartet",
+    "optimistic": "Optimistisch",
+    "litres": "Verkauft",
+    "margin": "Marge pro Jahr",
+    "payback": "Amortisation"
+  },
+  "chart": {
+    "heading": "Cashflow über {months} Monate",
+    "label": "Liniendiagramm des kumulierten Cashflows über {months} Monate. Er beginnt bei {start} und erreicht im erwarteten Szenario {end}.",
+    "expected": "Erwartet",
+    "range": "Pessimistisch bis optimistisch",
+    "xAxis": "Monate",
+    "month": "Monat {n}",
+    "paidBack": "Amortisiert",
+    "table": "Als Tabelle anzeigen",
+    "tableMonth": "Monat",
+    "keyboard": "Mit den Pfeiltasten links und rechts lesen Sie die Werte Monat für Monat."
+  },
+  "share": {
+    "copy": "Link kopieren",
+    "copied": "Link kopiert",
+    "failed": "Kopieren Sie die Adresse aus der Adressleiste",
+    "print": "Drucken"
+  },
+  "print": {
+    "heading": "Zusammenfassung",
+    "date": "Datum: {date}",
+    "inputs": "Eingaben"
+  },
+  "method": {
+    "title": "Methode",
+    "intro": "Diese Seite beschreibt alles, was der Rechner tut: die Formeln, die Startwerte und die Herkunft des Molkereipreises.",
+    "formulasHeading": "Formeln",
+    "formulasIntro": "Der Direktverkauf wird mit der Lieferung derselben Milch an die Molkerei verglichen. Der Molkereipreis zählt deshalb bei jedem direkt verkauften Liter als Kosten.",
+    "termsHeading": "Was die einzelnen Ergebnisse bedeuten",
+    "terms": {
+      "dairyPricePerL": "Der Molkereipreis, umgerechnet von € je 100 kg in € je Liter. Ein Liter Milch wiegt etwa 1,03 kg.",
+      "marginPerSoldLitre": "Was ein direkt verkaufter Liter mehr einbringt als ein an die Molkerei gelieferter Liter, nach Zahlungsgebühren, Flasche und der eingefüllten, aber nicht verkauften Milch.",
+      "annualFixed": "Kosten, die nicht von der verkauften Menge abhängen: Ihre Arbeitszeit, Strom, Wartung, Laboruntersuchungen und Versicherung.",
+      "annualMargin": "Der Mehrertrag pro Jahr gegenüber der Molkerei, nach Fixkosten.",
+      "paybackMonths": "Die Zahl der Monate, bis der Mehrertrag die Investition deckt. Ist die Jahresmarge null oder negativ, amortisiert sich die Investition nicht.",
+      "breakEvenLitresDay": "Die Liter, die pro Tag verkauft werden müssen, damit die Jahresmarge genau null beträgt.",
+      "targetLitresDay": "Die Liter, die pro Tag verkauft werden müssen, um die Investition in der angestrebten Zeit zurückzuverdienen.",
+      "cashFlow": "Der kumulierte Cashflow für jeden Monat von 0 bis 60, beginnend mit der Investition als negativem Betrag."
+    },
+    "edgeCases": "Ist die Marge je verkauftem Liter null oder negativ, werden die Mengen für Gewinnschwelle und Ziel als „bei diesem Preis nicht rentabel“ angezeigt.",
+    "scenariosHeading": "Szenarien",
+    "scenariosText": "Es werden drei Szenarien berechnet. Das erwartete Szenario verwendet Ihre Zahlen unverändert. Das pessimistische rechnet mit {down} weniger Litern und {waste} Prozentpunkten mehr unverkaufter Milch. Das optimistische rechnet mit {up} mehr Litern.",
+    "defaultsHeading": "Startwerte",
+    "defaultsIntro": "Jeder Startwert lässt sich im Rechner ändern. Als noch nicht geprüft markierte Werte sind vorläufig, bis eine verlässliche Quelle vorliegt.",
+    "colInput": "Eingabe",
+    "colDefault": "Startwert",
+    "colSource": "Quelle",
+    "colStatus": "Status",
+    "verified": "Geprüft",
+    "unverified": "Noch nicht geprüft",
+    "dataHeading": "Daten zum Molkereipreis",
+    "dataText": "Die Molkereipreise stammen aus den Rohmilchpreisdaten des Agri-food Data Portal der Europäischen Kommission: Monatspreise je Mitgliedstaat, für konventionelle Milch und Biomilch, in € je 100 kg.",
+    "dataChecks": "Jeder Wert wird vor der Veröffentlichung geprüft. Ein Wert wird abgelehnt, wenn er außerhalb von {min}–{max} € je 100 kg liegt, wenn sein Monat mehr als {months} Monate zurückliegt oder wenn er um {change} oder mehr vom vorherigen Wert abweicht. In diesem Fall bleibt der vorherige Wert bestehen und wird als veraltet markiert.",
+    "dataFallback": "Wo kein Biopreis veröffentlicht wird, wird der konventionelle Preis verwendet. Hat ein Land gar keinen aktuellen Preis, wird der Preis eines Nachbarlandes verwendet. Der Rechner weist in beiden Fällen darauf hin.",
+    "dataSource": "Datenquelle",
+    "dataApi": "API-Abfrage",
+    "lastUpdate": "Letzte Aktualisierung: {date}",
+    "colCountry": "Land",
+    "colPer100kg": "€ je 100 kg",
+    "colPerLitre": "€ je Liter",
+    "colMonth": "Monat",
+    "noData": "Keine Daten",
+    "disclaimerHeading": "Hinweis",
+    "disclaimerText": "Die Ergebnisse hängen vollständig von den eingegebenen Zahlen ab. Prüfen Sie sie mit Ihrer Steuerberatung, und klären Sie die Regeln für den Verkauf von Rohmilch mit Ihrer Lebensmittelbehörde."
+  },
+  "defaultSources": {
+    "country": "Gestaltungsentscheidung: KTLO hat seinen Sitz in Belgien",
+    "herdType": "Gestaltungsentscheidung: der häufigste Fall",
+    "soldLitresPerDay": "Vorläufiger Wert",
+    "sellPrice": "Vorläufiger Wert, bis eine Erhebung bei belgischen Milchautomaten vorliegt",
+    "investment": "Studie der Universität Hohenheim zu deutschen Milchtankstellen: Eine Investition unter 20.000 € ist realistisch",
+    "hoursPerDay": "Vorläufiger Wert",
+    "daysOpen": "Vorläufiger Wert",
+    "paymentFeeShare": "Vorläufiger Wert",
+    "bottleCostPerL": "Vorläufiger Wert: Kunden bringen Flaschen meist mit oder kaufen sie",
+    "wasteShare": "Vorläufiger Wert",
+    "hourlyValue": "Vorläufiger Wert",
+    "electricityPerYear": "Vorläufiger Wert",
+    "maintenancePerYear": "Vorläufiger Wert: jährlicher Schlauchwechsel und monatliche Kalibrierung",
+    "labTestsPerYear": "Vorläufiger Wert",
+    "insurancePerYear": "Vorläufiger Wert",
+    "paybackTargetYears": "Gestaltungsentscheidung: entspricht dem Diagramm über 60 Monate"
+  }
+}

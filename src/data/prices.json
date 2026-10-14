@@ -1,0 +1,66 @@
+{
+  "fetchedAt": "2026-10-13T16:50:50.639Z",
+  "sourceUrl": "https://api.tech.ec.europa.eu/agrifood/api/rawMilk/prices?memberStateCodes=BE,NL,LU,DE,FR&years=2025,2026",
+  "countries": {
+    "BE": {
+      "conventional": {
+        "per100kg": 44,
+        "perLitre": 0.4532,
+        "month": "2026-09",
+        "stale": false
+      },
+      "organic": {
+        "per100kg": 54.79,
+        "perLitre": 0.5643,
+        "month": "2026-08",
+        "stale": false
+      }
+    },
+    "NL": {
+      "conventional": {
+        "per100kg": 44,
+        "perLitre": 0.4532,
+        "month": "2026-09",
+        "stale": false
+      },
+      "organic": {
+        "per100kg": 67,
+        "perLitre": 0.6901,
+        "month": "2026-08",
+        "stale": false
+      }
+    },
+    "LU": {
+      "conventional": null,
+      "organic": null
+    },
+    "DE": {
+      "conventional": {
+        "per100kg": 41.15,
+        "perLitre": 0.4238,
+        "month": "2026-09",
+        "stale": false
+      },
+      "organic": {
+        "per100kg": 63.35,
+        "perLitre": 0.6525,
+        "month": "2026-08",
+        "stale": false
+      }
+    },
+    "FR": {
+      "conventional": {
+        "per100kg": 44.39,
+        "perLitre": 0.4572,
+        "month": "2026-09",
+        "stale": false
+      },
+      "organic": {
+        "per100kg": 53.4,
+        "perLitre": 0.55,
+        "month": "2026-08",
+        "stale": false
+      }
+    }
+  }
+}

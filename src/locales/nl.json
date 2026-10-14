@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "lang": "nl",
+    "langName": "Nederlands",
+    "numberLocale": "nl-BE"
+  },
+  "site": {
+    "title": "Rekentool voor rechtstreekse verkoop van rauwe melk",
+    "description": "Gratis rekentool voor melkveehouders: vergelijk de rechtstreekse verkoop van rauwe melk, via een melkautomaat of hoevewinkel, met de levering aan de zuivelfabriek.",
+    "skip": "Naar de inhoud",
+    "navLabel": "Pagina's",
+    "navCalculator": "Rekentool",
+    "navMethod": "Methode",
+    "languageLabel": "Taal",
+    "disclaimer": "Schatting, geen financieel of juridisch advies.",
+    "builtBy": "Gebouwd en onderhouden door {ktlo}",
+    "noscript": "Deze rekentool heeft JavaScript nodig om te werken."
+  },
+  "home": {
+    "h1": "Wat is mijn melk waard als ik ze zelf verkoop?",
+    "intro": "Vergelijk de rechtstreekse verkoop van rauwe melk, via een melkautomaat of hoevewinkel, met de levering aan de zuivelfabriek."
+  },
+  "price": {
+    "heading": "Melkprijs van de zuivelfabriek",
+    "country": "Land",
+    "herdType": "Type bedrijf",
+    "conventional": "Gangbaar",
+    "organic": "Biologisch",
+    "line": "Melkprijs zuivelfabriek: {country}, {month} · bron: {source}",
+    "sourceName": "Europese Commissie",
+    "value": "{per100kg} per 100 kg, of {perLitre} per liter",
+    "stale": "Verouderd",
+    "staleNote": "De laatste update kwam niet door de controles. Daarom wordt een oudere prijs getoond.",
+    "organicFallback": "Voor dit land wordt geen biologische prijs gepubliceerd. In de plaats wordt de gangbare prijs gebruikt.",
+    "countryFallback": "Voor dit land wordt geen recente melkprijs gepubliceerd. In de plaats wordt de prijs van een buurland gebruikt: {other}.",
+    "unavailable": "Voor dit land is geen melkprijs beschikbaar.",
+    "authority": "Voedselveiligheidsautoriteit: {link}"
+  },
+  "countries": {
+    "BE": "België",
+    "NL": "Nederland",
+    "LU": "Luxemburg",
+    "DE": "Duitsland",
+    "FR": "Frankrijk"
+  },
+  "authorities": {
+    "BE": "FAVV",
+    "NL": "NVWA",
+    "LU": "ALVA (in het Engels)",
+    "DE": "voedselcontrolediensten van de deelstaten (overzicht van het BVL, in het Duits)",
+    "FR": "lijst van de DDPP's (in het Frans)"
+  },
+  "form": {
+    "heading": "Uw cijfers",
+    "advanced": "Meer aannames",
+    "reset": "Beginwaarden herstellen",
+    "sliderSuffix": "schuifregelaar"
+  },
+  "inputs": {
+    "soldLitresPerDay": {
+      "label": "Verkochte melk",
+      "unit": "L/dag"
+    },
+    "sellPrice": {
+      "label": "Verkoopprijs",
+      "unit": "€/L"
+    },
+    "investment": {
+      "label": "Investering",
+      "unit": "€"
+    },
+    "hoursPerDay": {
+      "label": "Uw tijd",
+      "unit": "u/dag"
+    },
+    "daysOpen": {
+      "label": "Dagen open",
+      "unit": "dagen/jaar"
+    },
+    "paymentFeeShare": {
+      "label": "Betaalkosten",
+      "unit": "%"
+    },
+    "bottleCostPerL": {
+      "label": "Kosten van flessen",
+      "unit": "€/L"
+    },
+    "wasteShare": {
+      "label": "Geladen maar niet verkochte melk",
+      "unit": "%"
+    },
+    "hourlyValue": {
+      "label": "Waarde van uw tijd",
+      "unit": "€/u"
+    },
+    "electricityPerYear": {
+      "label": "Elektriciteit",
+      "unit": "€/jaar"
+    },
+    "maintenancePerYear": {
+      "label": "Onderhoud",
+      "unit": "€/jaar"
+    },
+    "labTestsPerYear": {
+      "label": "Laboratoriumtests",
+      "unit": "€/jaar"
+    },
+    "insurancePerYear": {
+      "label": "Verzekering",
+      "unit": "€/jaar"
+    },
+    "paybackTargetYears": {
+      "label": "Beoogde terugverdientijd",
+      "unit": "jaar"
+    }
+  },
+  "results": {
+    "heading": "Resultaten",
+    "annualMargin": "Extra marge per jaar",
+    "annualMarginNote": "Vergeleken met de levering van dezelfde melk aan de zuivelfabriek",
+    "payback": "Terugverdientijd",
+    "months": "{n} maanden",
+    "years": "ongeveer {n} jaar",
+    "noPayback": "Wordt niet terugverdiend",
+    "notProfitable": "Niet rendabel tegen deze prijs",
+    "breakEven": "Break-evenvolume",
+    "target": "Volume om in {years} jaar terug te verdienen",
+    "litresDay": "{n} L/dag",
+    "marginPerLitre": "Marge per verkochte liter",
+    "annualFixed": "Vaste kosten per jaar",
+    "live": "Extra marge per jaar: {margin}. Terugverdientijd: {payback}."
+  },
+  "scenarios": {
+    "heading": "Scenario's",
+    "note": "Pessimistisch: {down} minder liters en {waste} procentpunten meer onverkochte melk. Optimistisch: {up} meer liters.",
+    "scenario": "Scenario",
+    "pessimistic": "Pessimistisch",
+    "expected": "Verwacht",
+    "optimistic": "Optimistisch",
+    "litres": "Verkocht",
+    "margin": "Marge per jaar",
+    "payback": "Terugverdientijd"
+  },
+  "chart": {
+    "heading": "Kasstroom over {months} maanden",
+    "label": "Lijngrafiek van de cumulatieve kasstroom over {months} maanden. Ze begint bij {start} en bereikt {end} in het verwachte scenario.",
+    "expected": "Verwacht",
+    "range": "Van pessimistisch tot optimistisch",
+    "xAxis": "Maanden",
+    "month": "Maand {n}",
+    "paidBack": "Terugverdiend",
+    "table": "Als tabel tonen",
+    "tableMonth": "Maand",
+    "keyboard": "Gebruik de pijltjestoetsen links en rechts om de waarden maand per maand te lezen."
+  },
+  "share": {
+    "copy": "Link kopiëren",
+    "copied": "Link gekopieerd",
+    "failed": "Kopieer het adres uit de adresbalk",
+    "print": "Afdrukken"
+  },
+  "print": {
+    "heading": "Samenvatting",
+    "date": "Datum: {date}",
+    "inputs": "Ingevoerde gegevens"
+  },
+  "method": {
+    "title": "Methode",
+    "intro": "Deze pagina beschrijft alles wat de rekentool doet: de formules, de beginwaarden en de herkomst van de melkprijs.",
+    "formulasHeading": "Formules",
+    "formulasIntro": "Rechtstreekse verkoop wordt vergeleken met de levering van dezelfde melk aan de zuivelfabriek. De melkprijs van de zuivelfabriek telt daarom als kost voor elke rechtstreeks verkochte liter.",
+    "termsHeading": "Wat elk resultaat betekent",
+    "terms": {
+      "dairyPricePerL": "De melkprijs van de zuivelfabriek, omgerekend van € per 100 kg naar € per liter. Een liter melk weegt ongeveer 1,03 kg.",
+      "marginPerSoldLitre": "Wat een rechtstreeks verkochte liter meer opbrengt dan een liter die aan de zuivelfabriek wordt geleverd, na betaalkosten, de fles en de geladen maar niet verkochte melk.",
+      "annualFixed": "Kosten die niet afhangen van het verkochte volume: uw tijd, elektriciteit, onderhoud, laboratoriumtests en verzekering.",
+      "annualMargin": "De extra marge per jaar vergeleken met de zuivelfabriek, na vaste kosten.",
+      "paybackMonths": "Het aantal maanden dat nodig is om de investering met de extra marge terug te verdienen. Is de jaarmarge nul of negatief, dan wordt de investering niet terugverdiend.",
+      "breakEvenLitresDay": "Het aantal liters dat u per dag moet verkopen om een jaarmarge van precies nul te halen.",
+      "targetLitresDay": "Het aantal liters dat u per dag moet verkopen om de investering binnen de beoogde terugverdientijd terug te verdienen.",
+      "cashFlow": "De cumulatieve kasstroom voor elke maand van 0 tot 60, te beginnen bij de investering als negatief bedrag."
+    },
+    "edgeCases": "Is de marge per verkochte liter nul of negatief, dan worden het break-evenvolume en het doelvolume getoond als \"niet rendabel tegen deze prijs\".",
+    "scenariosHeading": "Scenario's",
+    "scenariosText": "Er worden drie scenario's berekend. Het verwachte scenario gebruikt uw cijfers zoals ingevoerd. Het pessimistische scenario rekent met {down} minder liters en {waste} procentpunten meer onverkochte melk. Het optimistische scenario rekent met {up} meer liters.",
+    "defaultsHeading": "Beginwaarden",
+    "defaultsIntro": "Elke beginwaarde kan in de rekentool worden aangepast. Waarden die als nog niet geverifieerd zijn gemarkeerd, zijn voorlopig tot er een betrouwbare bron is.",
+    "colInput": "Gegeven",
+    "colDefault": "Beginwaarde",
+    "colSource": "Bron",
+    "colStatus": "Status",
+    "verified": "Geverifieerd",
+    "unverified": "Nog niet geverifieerd",
+    "dataHeading": "Gegevens over de melkprijs",
+    "dataText": "De melkprijzen komen uit de gegevens over rauwemelkprijzen van het Agri-food Data Portal van de Europese Commissie: maandprijzen per lidstaat, voor gangbare en biologische melk, in € per 100 kg.",
+    "dataChecks": "Elke waarde wordt gecontroleerd voor ze wordt gepubliceerd. Een waarde wordt geweigerd als ze buiten {min}–{max} € per 100 kg valt, als de maand meer dan {months} maanden oud is, of als ze {change} of meer afwijkt van de vorige waarde. In dat geval blijft de vorige waarde staan en wordt ze als verouderd gemarkeerd.",
+    "dataFallback": "Waar geen biologische prijs wordt gepubliceerd, wordt de gangbare prijs gebruikt. Waar een land helemaal geen recente prijs heeft, wordt de prijs van een buurland gebruikt. De rekentool meldt dat in beide gevallen.",
+    "dataSource": "Gegevensbron",
+    "dataApi": "API-verzoek",
+    "lastUpdate": "Laatste update: {date}",
+    "colCountry": "Land",
+    "colPer100kg": "€ per 100 kg",
+    "colPerLitre": "€ per liter",
+    "colMonth": "Maand",
+    "noData": "Geen gegevens",
+    "disclaimerHeading": "Disclaimer",
+    "disclaimerText": "De resultaten hangen volledig af van de ingevoerde cijfers. Controleer ze met uw boekhouder, en controleer de regels voor de verkoop van rauwe melk bij uw voedselveiligheidsautoriteit."
+  },
+  "defaultSources": {
+    "country": "Ontwerpkeuze: KTLO is gevestigd in België",
+    "herdType": "Ontwerpkeuze: het meest voorkomende geval",
+    "soldLitresPerDay": "Voorlopige waarde",
+    "sellPrice": "Voorlopige waarde, in afwachting van een rondvraag bij Belgische melkautomaten",
+    "investment": "Studie van de universiteit van Hohenheim over Duitse melkautomaten: een investering onder € 20.000 is realistisch",
+    "hoursPerDay": "Voorlopige waarde",
+    "daysOpen": "Voorlopige waarde",
+    "paymentFeeShare": "Voorlopige waarde",
+    "bottleCostPerL": "Voorlopige waarde: klanten brengen meestal flessen mee of kopen ze",
+    "wasteShare": "Voorlopige waarde",
+    "hourlyValue": "Voorlopige waarde",
+    "electricityPerYear": "Voorlopige waarde",
+    "maintenancePerYear": "Voorlopige waarde: jaarlijkse vervanging van de slangen en maandelijkse kalibratie",
+    "labTestsPerYear": "Voorlopige waarde",
+    "insurancePerYear": "Voorlopige waarde",
+    "paybackTargetYears": "Ontwerpkeuze: komt overeen met de grafiek over 60 maanden"
+  }
+}

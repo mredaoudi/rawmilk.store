@@ -1,0 +1,18 @@
+{
+  "name": "rawmilk-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Profitability calculator for dairy farmers selling raw milk directly",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "preview": "node scripts/build.js && node scripts/serve.js",
+    "test": "node --test",
+    "fetch:prices": "node scripts/fetch-prices.js",
+    "update": "node scripts/fetch-prices.js && node scripts/build.js",
+    "check:defaults": "node scripts/check-defaults.js"
+  }
+}

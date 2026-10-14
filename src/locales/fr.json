@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "lang": "fr",
+    "langName": "Français",
+    "numberLocale": "fr-BE"
+  },
+  "site": {
+    "title": "Calculateur de vente directe de lait cru",
+    "description": "Calculateur gratuit pour les producteurs laitiers : comparez la vente directe de lait cru, au distributeur ou au magasin à la ferme, avec la livraison à la laiterie.",
+    "skip": "Aller au contenu",
+    "navLabel": "Pages",
+    "navCalculator": "Calculateur",
+    "navMethod": "Méthode",
+    "languageLabel": "Langue",
+    "disclaimer": "Estimation, pas un conseil financier ou juridique.",
+    "builtBy": "Conçu et maintenu par {ktlo}",
+    "noscript": "Ce calculateur a besoin de JavaScript pour fonctionner."
+  },
+  "home": {
+    "h1": "Que vaut mon lait si je le vends moi-même ?",
+    "intro": "Comparez la vente directe de lait cru, au distributeur ou au magasin à la ferme, avec la livraison à la laiterie."
+  },
+  "price": {
+    "heading": "Prix laiterie",
+    "country": "Pays",
+    "herdType": "Type d'élevage",
+    "conventional": "Conventionnel",
+    "organic": "Bio",
+    "line": "Prix laiterie : {country}, {month} · source : {source}",
+    "sourceName": "Commission européenne",
+    "value": "{per100kg} par 100 kg, soit {perLitre} par litre",
+    "stale": "Pas à jour",
+    "staleNote": "La dernière mise à jour n'a pas passé les contrôles : un prix plus ancien est affiché.",
+    "organicFallback": "Aucun prix bio n'est publié pour ce pays. Le prix conventionnel est utilisé à la place.",
+    "countryFallback": "Aucun prix laiterie récent n'est publié pour ce pays. Le prix d'un pays voisin est utilisé à la place : {other}.",
+    "unavailable": "Aucun prix laiterie n'est disponible pour ce pays.",
+    "authority": "Autorité de sécurité alimentaire : {link}"
+  },
+  "countries": {
+    "BE": "Belgique",
+    "NL": "Pays-Bas",
+    "LU": "Luxembourg",
+    "DE": "Allemagne",
+    "FR": "France"
+  },
+  "authorities": {
+    "BE": "AFSCA",
+    "NL": "NVWA (en néerlandais)",
+    "LU": "ALVA",
+    "DE": "autorités de contrôle alimentaire des Länder (aperçu du BVL, en allemand)",
+    "FR": "annuaire des DDPP"
+  },
+  "form": {
+    "heading": "Vos chiffres",
+    "advanced": "Autres hypothèses",
+    "reset": "Rétablir les valeurs de départ",
+    "sliderSuffix": "curseur"
+  },
+  "inputs": {
+    "soldLitresPerDay": {
+      "label": "Lait vendu",
+      "unit": "L/jour"
+    },
+    "sellPrice": {
+      "label": "Prix de vente",
+      "unit": "€/L"
+    },
+    "investment": {
+      "label": "Investissement",
+      "unit": "€"
+    },
+    "hoursPerDay": {
+      "label": "Votre temps",
+      "unit": "h/jour"
+    },
+    "daysOpen": {
+      "label": "Jours d'ouverture",
+      "unit": "jours/an"
+    },
+    "paymentFeeShare": {
+      "label": "Frais de paiement",
+      "unit": "%"
+    },
+    "bottleCostPerL": {
+      "label": "Coût des bouteilles",
+      "unit": "€/L"
+    },
+    "wasteShare": {
+      "label": "Lait chargé mais non vendu",
+      "unit": "%"
+    },
+    "hourlyValue": {
+      "label": "Valeur de votre temps",
+      "unit": "€/h"
+    },
+    "electricityPerYear": {
+      "label": "Électricité",
+      "unit": "€/an"
+    },
+    "maintenancePerYear": {
+      "label": "Entretien",
+      "unit": "€/an"
+    },
+    "labTestsPerYear": {
+      "label": "Analyses de laboratoire",
+      "unit": "€/an"
+    },
+    "insurancePerYear": {
+      "label": "Assurance",
+      "unit": "€/an"
+    },
+    "paybackTargetYears": {
+      "label": "Objectif de retour",
+      "unit": "ans"
+    }
+  },
+  "results": {
+    "heading": "Résultats",
+    "annualMargin": "Marge supplémentaire par an",
+    "annualMarginNote": "Par rapport à la livraison du même lait à la laiterie",
+    "payback": "Retour sur investissement",
+    "months": "{n} mois",
+    "years": "environ {n} ans",
+    "noPayback": "Pas de retour sur investissement",
+    "notProfitable": "Non rentable à ce prix",
+    "breakEven": "Volume au seuil de rentabilité",
+    "target": "Volume pour un retour en {years} ans",
+    "litresDay": "{n} L/jour",
+    "marginPerLitre": "Marge par litre vendu",
+    "annualFixed": "Coûts fixes par an",
+    "live": "Marge supplémentaire par an : {margin}. Retour sur investissement : {payback}."
+  },
+  "scenarios": {
+    "heading": "Scénarios",
+    "note": "Pessimiste : {down} de litres en moins et {waste} points de pourcentage de lait non vendu en plus. Optimiste : {up} de litres en plus.",
+    "scenario": "Scénario",
+    "pessimistic": "Pessimiste",
+    "expected": "Attendu",
+    "optimistic": "Optimiste",
+    "litres": "Vendu",
+    "margin": "Marge par an",
+    "payback": "Retour"
+  },
+  "chart": {
+    "heading": "Trésorerie sur {months} mois",
+    "label": "Courbe de la trésorerie cumulée sur {months} mois. Elle part de {start} et atteint {end} dans le scénario attendu.",
+    "expected": "Attendu",
+    "range": "De pessimiste à optimiste",
+    "xAxis": "Mois",
+    "month": "Mois {n}",
+    "paidBack": "Remboursé",
+    "table": "Afficher sous forme de tableau",
+    "tableMonth": "Mois",
+    "keyboard": "Utilisez les flèches gauche et droite pour lire les valeurs mois par mois."
+  },
+  "share": {
+    "copy": "Copier le lien",
+    "copied": "Lien copié",
+    "failed": "Copiez l'adresse dans la barre d'adresse",
+    "print": "Imprimer"
+  },
+  "print": {
+    "heading": "Résumé",
+    "date": "Date : {date}",
+    "inputs": "Données saisies"
+  },
+  "method": {
+    "title": "Méthode",
+    "intro": "Cette page détaille tout ce que fait le calculateur : les formules, les valeurs de départ et l'origine du prix laiterie.",
+    "formulasHeading": "Formules",
+    "formulasIntro": "La vente directe est comparée à la livraison du même lait à la laiterie. Le prix laiterie est donc compté comme un coût pour chaque litre vendu en direct.",
+    "termsHeading": "Signification de chaque résultat",
+    "terms": {
+      "dairyPricePerL": "Le prix laiterie converti de € par 100 kg en € par litre. Un litre de lait pèse environ 1,03 kg.",
+      "marginPerSoldLitre": "Ce qu'un litre vendu en direct rapporte de plus qu'un litre livré à la laiterie, après les frais de paiement, la bouteille et le lait chargé mais non vendu.",
+      "annualFixed": "Les coûts qui ne dépendent pas du volume vendu : votre temps, l'électricité, l'entretien, les analyses de laboratoire et l'assurance.",
+      "annualMargin": "La marge supplémentaire par an par rapport à la laiterie, après les coûts fixes.",
+      "paybackMonths": "Le nombre de mois nécessaires pour que la marge supplémentaire couvre l'investissement. Si la marge annuelle est nulle ou négative, il n'y a pas de retour sur investissement.",
+      "breakEvenLitresDay": "Les litres à vendre par jour pour que la marge annuelle soit exactement nulle.",
+      "targetLitresDay": "Les litres à vendre par jour pour récupérer l'investissement dans le délai visé.",
+      "cashFlow": "La trésorerie cumulée pour chaque mois de 0 à 60, en partant de l'investissement en négatif."
+    },
+    "edgeCases": "Si la marge par litre vendu est nulle ou négative, les volumes au seuil de rentabilité et pour l'objectif sont affichés comme « non rentable à ce prix ».",
+    "scenariosHeading": "Scénarios",
+    "scenariosText": "Trois scénarios sont calculés. Le scénario attendu reprend vos chiffres tels quels. Le scénario pessimiste compte {down} de litres en moins et {waste} points de pourcentage de lait non vendu en plus. Le scénario optimiste compte {up} de litres en plus.",
+    "defaultsHeading": "Valeurs de départ",
+    "defaultsIntro": "Chaque valeur de départ peut être modifiée dans le calculateur. Les valeurs marquées comme non vérifiées sont provisoires, en attendant une source fiable.",
+    "colInput": "Donnée",
+    "colDefault": "Valeur de départ",
+    "colSource": "Source",
+    "colStatus": "Statut",
+    "verified": "Vérifié",
+    "unverified": "Pas encore vérifié",
+    "dataHeading": "Données de prix laiterie",
+    "dataText": "Les prix laiterie proviennent des données de prix du lait cru du portail de données agroalimentaires de la Commission européenne : des prix mensuels par État membre, pour le lait conventionnel et le lait bio, en € par 100 kg.",
+    "dataChecks": "Chaque valeur est contrôlée avant d'être publiée. Une valeur est rejetée si elle sort de la fourchette {min}–{max} € par 100 kg, si son mois date de plus de {months} mois, ou si elle s'écarte de {change} ou plus de la valeur précédente. Dans ce cas, la valeur précédente est conservée et signalée comme pas à jour.",
+    "dataFallback": "Quand aucun prix bio n'est publié, le prix conventionnel est utilisé. Quand un pays n'a aucun prix récent, le prix d'un pays voisin est utilisé. Le calculateur le signale dans les deux cas.",
+    "dataSource": "Source des données",
+    "dataApi": "Requête API",
+    "lastUpdate": "Dernière mise à jour : {date}",
+    "colCountry": "Pays",
+    "colPer100kg": "€ par 100 kg",
+    "colPerLitre": "€ par litre",
+    "colMonth": "Mois",
+    "noData": "Pas de données",
+    "disclaimerHeading": "Avertissement",
+    "disclaimerText": "Les résultats dépendent entièrement des chiffres saisis. Vérifiez-les avec votre comptable, et vérifiez les règles de vente de lait cru auprès de votre autorité de sécurité alimentaire."
+  },
+  "defaultSources": {
+    "country": "Choix de conception : KTLO est établi en Belgique",
+    "herdType": "Choix de conception : le cas le plus courant",
+    "soldLitresPerDay": "Valeur provisoire",
+    "sellPrice": "Valeur provisoire, en attendant un relevé des distributeurs belges",
+    "investment": "Étude de l'université de Hohenheim sur les distributeurs de lait allemands : un investissement inférieur à 20 000 € est réaliste",
+    "hoursPerDay": "Valeur provisoire",
+    "daysOpen": "Valeur provisoire",
+    "paymentFeeShare": "Valeur provisoire",
+    "bottleCostPerL": "Valeur provisoire : les clients apportent ou achètent généralement leurs bouteilles",
+    "wasteShare": "Valeur provisoire",
+    "hourlyValue": "Valeur provisoire",
+    "electricityPerYear": "Valeur provisoire",
+    "maintenancePerYear": "Valeur provisoire : remplacement annuel des tuyaux et calibrage mensuel",
+    "labTestsPerYear": "Valeur provisoire",
+    "insurancePerYear": "Valeur provisoire",
+    "paybackTargetYears": "Choix de conception : correspond au graphique sur 60 mois"
+  }
+}
