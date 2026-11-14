@@ -16,5 +16,5 @@ Thumbs.db
 .vscode/
 .idea/
 
-PROMPT.md
-DECISIONS.md
+# Notes for Claude (local only)
+CLAUDE.md

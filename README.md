@@ -86,7 +86,7 @@ Without those variables the site loads no analytics. It sets no cookies either w
 
 ## Deploying
 
-Upload the contents of `dist/` to any static host. On Cloudflare Pages, the build command is `npm run build` and the output directory is `dist`.
+The site is on Vercel, which builds it from this repository: build command `npm run build`, output directory `dist`. Any static host works the same way.
 
 ## How the data job works
 
@@ -112,7 +112,7 @@ A series the Commission does not publish is stored as `null` and reported as a n
 - no organic price: the conventional price of that country is used
 - no price at all: the price of the country named in `PRICE_FALLBACK` in `src/js/defaults.js` is used. This is the case for Luxembourg, whose last published price dates from November 2018, so it uses the Belgian price.
 
-**Scheduling is not set up in this repository.** To keep the site current, run `npm run update` once a month (the brief suggests the 12th) and redeploy `dist/`. The exit code tells a scheduler whether to raise an alert.
+**Scheduling is not set up in this repository.** To keep the site current, run `npm run update` once a month (on the 12th, say) and redeploy. The exit code tells a scheduler whether to raise an alert.
 
 If a price really does move by 30 % or more, the script will keep rejecting it. Check the figure at the source, correct `per100kg`, `perLitre` and `month` by hand in `src/data/prices.json`, set `stale` to `false`, then rebuild.
 
@@ -138,8 +138,6 @@ sellPrice: {
 `npm run check:defaults` shows what is left to verify. The same file holds the slider ranges (`min`, `max`, `step`) and the scenario factors (`SCENARIO_FACTORS`).
 
 Do not rename the one-letter `key` of an input: shared links already in circulation use it.
-
-Assumptions made where the brief was silent are logged in [DECISIONS.md](DECISIONS.md).
 
 ---
 
