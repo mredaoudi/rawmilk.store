@@ -44,7 +44,7 @@ targetLitresDay    = (annualFixed + investment / paybackTargetYears)
                      / (marginPerSoldLitre × daysOpen)
 cashFlow[m]        = −investment + m × annualMargin / 12,  m = 0..${CASH_FLOW_MONTHS}`;
 
-const FAVICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1c5cab"/><path d="M13 5h6v5l4 6v9a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2v-9l4-6z" fill="#fff"/></svg>
+const FAVICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1c5cab"/><path d="M13 5h6v5l4 6v9a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2v-9l4-6z" fill="#fff"/><path d="M11.55 18.8V24M11.55 21c0-1.4.9-2.2 2.3-2.2M15.25 18.8V24M15.25 20.8c0-1.3.6-2 1.3-2s1.3.7 1.3 2V24M17.85 20.8c0-1.3.6-2 1.3-2s1.3.7 1.3 2V24" fill="none" stroke="#1c5cab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
 `;
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
